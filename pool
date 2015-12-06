@@ -45,9 +45,10 @@ void draw() {
   background( 250,250,200 );
   rectMode( CORNERS );
   table( left, top, right, bottom );
+  show();
+  // ACTION.
   bounce();
   collisions();
-  show();
   messages();
 }
 
